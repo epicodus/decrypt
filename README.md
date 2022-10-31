@@ -5,5 +5,4 @@ The only blank line should be after `DEK-Info`.
 An ending newline is okay.
 
 If you get the error `Neither PUB key nor PRIV key: nested asn1 error`,
-try generating a new key with `openssl genrsa -des3 -out test.pem 2048`
-and make sure your private key is in the same format.
+make sure your private key is in the same format as `example.pem`.
